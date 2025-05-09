@@ -1,0 +1,7 @@
+target
+*.iml
+mvnw*
+.idea
+.idea/misc.xml
+dependency-reduced-pom.xml
+.DS_Store

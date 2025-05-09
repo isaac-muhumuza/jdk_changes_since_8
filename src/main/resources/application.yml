@@ -1,0 +1,19 @@
+spring:
+  config:
+    activate:
+      on-profile: service
+  application:
+    name: jdk_changes_since_8
+server:
+  port: 8080
+
+---
+# Service mode
+spring:
+  config:
+    activate:
+      on-profile: service
+server:
+  port: 8080
+
+---
